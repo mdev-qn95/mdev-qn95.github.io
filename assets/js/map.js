@@ -6,7 +6,7 @@
 function initMap() {
 // Styles a map in night mode.
 var map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 25.762055, lng: -80.191802 },
+    center: { lat: 15.930385, lng: 108.180404 },
     zoom: 12,
     styles: [
     { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
@@ -91,7 +91,7 @@ var map = new google.maps.Map(document.getElementById("map"), {
 });
 
 var marker = new google.maps.Marker({
-    position: { lat: 25.762055, lng: -80.191802 },
+    position: { lat: 15.930385, lng: 108.180404 },
     map: map,
     title: "Bangalore"
 });
